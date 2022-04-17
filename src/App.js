@@ -20,6 +20,7 @@ function App() {
       <SideBar/>
       </div>
      <div className="col-sm-12 col-md-11">
+       <p>hello</p>
      <Routes>
         <Route exact path="/"  element={<Home/>}/>
         <Route exact path="/projects"  element={<Projects/>}/>
